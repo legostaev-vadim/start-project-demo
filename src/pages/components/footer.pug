@@ -1,0 +1,27 @@
+mixin footer
+  footer.footer
+    ._wrapper
+      h2._title.wow.bounceIn Теперь расскажите о себе
+      form#about._form(action="#" method="POST")
+        ._section
+          p._number 1
+          ._block
+            p._label Фамилия и имя
+            input._input(type="text" name="fullname" required)
+        ._section
+          p._number 2
+          ._block
+            p._label Электронная почта
+            input._input(type="email" name="email" required)
+        ._section
+          p._number 3
+          ._block
+            p._label Телефон
+            input._input(type="tel" name="phone" required)
+        ._section
+          p._number 4
+          ._block
+            p._label Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?
+            textarea._textarea(name="description" required)
+            button._submit(type="submit") Отправить
+  +scripts

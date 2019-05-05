@@ -1,0 +1,92 @@
+.advantage {
+  padding-top: 90px;
+  padding-bottom: 123px;
+  background: #F7F5FA;
+
+  &__wrapper {
+    max-width: 1400px;
+  }
+
+  &__title {
+    font-family: $fontSecondaryRegular;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  &__container {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  &__block {
+    max-width: 320px;
+    margin: 25px 0;
+    margin-left: 5.75%;
+    &:first-of-type {
+      margin-left: 6.35%;
+    }
+    &:last-of-type {
+      max-width: 340px;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 10px;
+  }
+
+  &__blk-title {
+    margin-bottom: 25px;
+    font-family: $fontSecondaryRegular;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    &::after {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      margin-top: 23px;
+      background: $colorPrimary;
+    }
+  }
+
+  &__text {
+    font-family: $fontPrimaryRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $colorSecondary;
+  }
+
+  @include max(780) {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    &__container {
+      display: block;
+    }
+    &__block {
+      max-width: 100%;
+      margin: 80px 0;
+      &:first-of-type {
+        margin-left: 0;
+      }
+      &:last-of-type {
+        max-width: 100%;
+      }
+    }
+  }
+
+  @include max(430) {
+    &__title {
+      font-size: 36px;
+    }
+  }
+}

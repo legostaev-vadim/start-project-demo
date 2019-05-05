@@ -1,0 +1,54 @@
+.enquire {
+  font-family: $fontSecondaryRegular;
+  background: #F7F5FA;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 972px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    // background: #fff;
+  }
+
+  &__block {
+    width: 50%;
+    padding: 36px 6.2%;
+    box-shadow: 0 0 0 .5px #EDEDED;
+    background: #fff;
+  }
+
+  &__title {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $colorPrimary;
+  }
+
+  &__text {
+    margin-top: 14px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+  }
+
+  @include max($screenLarge) {
+    &__container {
+      top: -60px;
+    }
+  }
+
+  @include max($screenSmall) {
+    &__container {
+      top: -40px;
+    }
+    &__block {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

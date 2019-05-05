@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a, button, input, [type="submit"], textarea {
+  &:active, &:focus  {
+    outline: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  @include no-select;
+}
+
+body {
+  font-family: $fontPrimaryRegular;
+  color: #222;
+  overflow-x: hidden;
+  // min-height: 10000px;
+  // background: linear-gradient(rgba(0,255,0,.5), rgba(0,255,0,.5)), url(../img/maket.jpg) no-repeat top center;
+  // opacity: 0.5;
+}
+
+[class*=wrapper] {
+  max-width: #{$screenExtra}px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@include max($screenLarge) {
+  [class*=wrapper] {
+    padding: 0 15px;
+  }
+}

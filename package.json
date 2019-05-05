@@ -1,0 +1,40 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-pug": "^4.0.1",
+    "gulp-pugbem": "^2.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-save": "^1.3.0",
+    "gulp-svg-sprites": "^4.1.2",
+    "merge2": "^1.2.3",
+    "multipipe": "^3.0.1",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "normalize.css": "^8.0.1",
+    "wowjs": "^1.1.3"
+  }
+}

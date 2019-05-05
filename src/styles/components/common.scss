@@ -1,0 +1,33 @@
+.common {
+  padding-top: 20px;
+  padding-bottom: 72px;
+
+  &__wrapper {
+    max-width: 832px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-family: $fontSecondaryRegular;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+
+  &__text {
+    margin-bottom: 29px;
+    font-family: $fontPrimaryRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $colorSecondary;
+  }
+
+  @include max(430) {
+    &__title {
+      font-size: 44px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('../fonts/Roboto.woff2') format('woff2'),
+    url('../fonts/Roboto.woff') format('woff'),
+    url('../fonts/Roboto.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+    url("../fonts/Robotomedium.ttf") format("truetype"),
+    url("../fonts/Robotomedium.woff") format("woff"),
+    url("../fonts/Robotomedium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+		url('../fonts/Robotobold.woff2') format('woff2'),
+		url('../fonts/Robotobold.woff') format('woff'),
+		url('../fonts/Robotobold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "DIN Pro";
+	src: local('DIN Pro'), local('DINPro'),
+  	url("../fonts/DINPro.ttf") format("truetype"),
+    url("../fonts/DINPro.woff") format("woff"),
+    url("../fonts/DINPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: local('DIN Pro Medium'), local('DINPro-Medium'),
+    url("../fonts/DINPro-Medium.ttf") format("truetype"),
+    url("../fonts/DINPro-Medium.woff") format("woff"),
+    url("../fonts/DINPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: "DIN Pro";
+	src: local('DIN Pro Bold'), local('DINPro-Bold'),
+  	url("../fonts/DINPro-Bold.ttf") format("truetype"),
+    url("../fonts/DINPro-Bold.woff") format("woff"),
+    url("../fonts/DINPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+    url('../fonts/Gilroyextrabold.woff2') format('woff2'),
+    url('../fonts/Gilroyextrabold.woff') format('woff'),
+    url('../fonts/Gilroyextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
